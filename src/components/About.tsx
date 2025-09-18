@@ -62,15 +62,15 @@ const About: React.FC = () => {
           {/* Image and Highlights */}
           <div className={`section-fade ${isVisible ? 'visible' : ''}`}>
             <div className="relative">
-              <img 
-                src="/Picture1.png"
-                alt="Developer at work"
-                className="w-full h-96 object-cover rounded-2xl shadow-xl"
+              <img
+                  src="/Picture1.png"
+                  alt="Developer at work"
+                  className="max-w-md w-auto h-auto rounded-2xl shadow-xl mx-auto"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
             </div>
 
-            
+
           </div>
         </div>
       </div>
