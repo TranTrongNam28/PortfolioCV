@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Github, Calendar, Code } from 'lucide-react';
-
 const Projects: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef<HTMLElement>(null);
@@ -26,7 +25,7 @@ const Projects: React.FC = () => {
     {
       title: "Website MeetingVL",
       description: "The website helps students record minutes when meeting with advisors and was developed by a team of 6 members.",
-      image: "/src/sep.jpg",
+      image: "/sep.jpg",
       technologies: ["Member","Document","HTML", "CSS"],
       githubUrl: "https://github.com/QuocNam29/MeetingVL.git",
       date: "2022"
@@ -34,7 +33,7 @@ const Projects: React.FC = () => {
     {
       title: "Website Academic Advisor Management",
       description: "This is a website that manages academic advising activities during the school year, built with a team of 5 members.",
-      image: "/src/Login.png",
+      image: "/Login.png",
       technologies: ["Scrum Master", "Leader", "Full Stack", "Document", "Business Analytics" ,"Tester"],
       githubUrl: "https://github.com/KyleValkyrie/CAPSTONE_TEAM01_2024.git",
       date: "2024-2025"

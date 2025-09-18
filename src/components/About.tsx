@@ -63,7 +63,7 @@ const About: React.FC = () => {
           <div className={`section-fade ${isVisible ? 'visible' : ''}`}>
             <div className="relative">
               <img 
-                src="/src/Picture1.png"
+                src="/Picture1.png"
                 alt="Developer at work"
                 className="w-full h-96 object-cover rounded-2xl shadow-xl"
               />
